@@ -28,22 +28,19 @@ function ex_2() {
   alert(result);
   return false;
 }
-
 //ex3
 function ex_3(a) {
-
   var string_hidden = document.getElementById("number-1-3").value;
   var sum = 0;
   var result = []; //show result
   var result_ex4 = [];
   var temp; //variable temp check condition
-  // alert(string_hidden); return false;
+
   for (var i = 0; i < string_hidden.length; i++) {
     if (string_hidden[i] != "*") {
       sum += Number(string_hidden[i]);
     }
   }
-  // // alert(sum);
   for (var j = 0; j <= 9; j++) {
     temp = sum + j;
     temp %= 3;
@@ -52,7 +49,6 @@ function ex_3(a) {
       // console.log(result);
     }
   }
-
   // console.log(result);
   if (a != 6) {
     alert(result);
@@ -70,9 +66,8 @@ function ex_3(a) {
   }
   alert(result_ex4);
   return false;
-
 }
-
+//ex4
 function ex_4() {
   var a = 6;
   var pre_result = ex_3(a);

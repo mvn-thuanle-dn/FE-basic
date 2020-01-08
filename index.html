@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Practice JS Day 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>thuan.le n.</h1>
+  <section class="ex-1">
+    <form action="#" method="post">
+      <h3>
+        Write a JavaScript program to compute the sum of the two given integers. If the two values are same, then returns triple their sum
+      </h3>
+      <content class="block-excerise">
+        Eg:
+        Input: a = 5, b = 10
+        Output: 15
+        Input: a = 5, b = 5
+        Output: 30
+      </content>
+      <input id="number-1" type="number" name="number-1">
+      <input id="number-2" type="number" name="number-2">
+      <input type="submit" name="submit-ex-1" value="result-ex-1" onclick="ex_1()">
+      <p id="result-1"></p>
+    </form>
+  </section>
+  <section class="ex-2">
+    <form action="#" method="post">
+      <h3>
+        Write a JavaScript program to compute the absolute difference between a specified number and 19. Returns triple their absolute difference if the specified number is greater than 19.
+      </h3>
+      <content class="block-excerise">
+        Eg:
+        Input: a = 12
+        Output: 7
+        Input: a = 19
+        Output: 0
+        Input: a = 22
+        Output: 9
+      </content>
+      <input id="number-1-2" type="number" name="number-1">
+      <!-- <input id="number-2" type="number" name="number-2"> -->
+      <input type="submit" name="submit-ex-1" value="result-ex-2" onclick="ex_2()">
+      <p id="result-2"></p>
+    </form>
+  </section>
+  <section class="ex-3">
+    <form action="#" method="post">
+      <h3>
+        A masked number is a string that consists of digits and one asterisk (*) that should be replaced by exactly one digit. Given a masked number find all the possible options to replace the asterisk with a digit to produce an integer divisible by 3.
+      </h3>
+      <content class="block-excerise">
+        Eg:
+        Input: a = '1*9'
+        Output: ['129', '159', '189']
+        Input: a = '1234567890*'
+        Output: ['12345678900',
+        '12345678903',
+        '12345678906',
+        '12345678909']
+      </content>
+      <input id="number-1-3" type="text" name="number-1">
+      <input type="submit" name="submit-ex-1" value="result-ex-3" onclick="ex_3()">
+      <input type="submit" name="submit-ex-4" value="result-ex-4" onclick="ex_4()" title="This is result for ex4">
+      <p id="result-3"></p>
+    </form>
+  </section>
+  <section class="ex-4">
+    <form action="#" method="post">
+      <h3>
+        A masked number is a string that consists of digits and one asterisk (*) that should be replaced by exactly one digit. Given a masked number find all the possible options to replace the asterisk with a digit to produce an integer divisible by 6..
+      </h3>
+      <content class="block-excerise">
+        Eg:
+        Input: a = '1*9'
+        Output: []
+        Input: a = '1234567890*'
+        Output: ['12345678900',
+        '12345678906']
+      </content>
+<!--       <input id="number-1-4" type="text" name="number-1">
+      <input type="submit" name="submit-ex-4" value="result-ex-3" onclick="ex_4()"> -->
+      <p id="result-4"></p>
+    </form>
+  </section>
+  <script src="./practice.js"></script>
+</body>
+
+</html>
